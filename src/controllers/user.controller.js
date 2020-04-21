@@ -1,29 +1,5 @@
 import User from '../models/Users';
 
 export const createUser = async(req, res) => {
-    // try {
-    // const { name, priority, description, deliverydate} = req.body;
-    // let newProject = await Project.create({
-    //     name,
-    //     priority,
-    //     description,
-    //     deliverydate
-    // }, {
-    //     fields: ['name', 'priority', 'description', 'deliverydate']
-    // });
-    // if (newProject) {
-
-    //     return res.json({
-    //         message: 'Project created succesfuly',
-    //         data: newProject
-    //     });
-    // }
-    // } catch (error) {
-    //     console.log(error)
-    //     res.status(500).json({
-    //         message: 'Something goes wrong',
-    //         data: {}
-    //     })
-    // }
     
 }
